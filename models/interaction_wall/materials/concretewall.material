@@ -1,0 +1,14 @@
+material Concrete/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ./concrete_texture.png
+      }
+    }
+  }
+}
